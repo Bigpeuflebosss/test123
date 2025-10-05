@@ -7,7 +7,7 @@ const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
 if (!TELEGRAM_TOKEN) {
   console.error("Missing TELEGRAM_TOKEN");
 }
-const WEBAPP_URL = process.env.WEBAPP_URL || "https://example.com"; // laisse inchangé si non défini
+const WEBAPP_URL = process.env.WEBAPP_URL || "https://test123-xcvt.onrender.com"; // laisse inchangé si non défini
 const API_URL = `https://api.telegram.org/bot${TELEGRAM_TOKEN}`;
 
 const app = express();
