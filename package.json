@@ -1,15 +1,20 @@
 {
   "name": "bigmenu",
-  "version": "1.0.0",
-  "description": "Bot Telegram + WebApp BigMenu",
+  "version": "1.0.2",
+  "description": "Bot Telegram + WebApp BigMenu (version stable Render)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "telegraf": "^4.15.0",
-    "helmet": "^7.1.0"
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^6.9.0",
+    "node-fetch": "^2.6.12",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.15.0"
   },
   "engines": {
     "node": ">=18"
